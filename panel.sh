@@ -74,4 +74,15 @@ sudo rm /etc/systemd/system/pteroq.service
 
 sudo unlink /etc/nginx/sites-enabled/pterodactyl.conf
 
+echo
+print_brake 70
+echo "* Uninstall-Pterodactyl @ $SCRIPT_VERSION"
+echo
+echo "* Copyright (C) 2022 - $(date +%Y), XxJustinxX1016."
+echo "* https://github.com/XxJustinxX1016/Uninstall-Pterodactyl"
+echo
+echo "* Thank you for using this script"
+print_brake 70
+echo
+
 done
