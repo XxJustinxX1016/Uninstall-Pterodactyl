@@ -95,7 +95,7 @@ while [ "$done" == false ]; do
   options=(
     "Uninstall Panel (Uninstall Your Panel)"
     "Uninstall Wings (Uninstall Your Wings)"
-    "Uninstall Both (Uninstall Your Panel & Wings)"
+    "Uninstall Both (Uninstall Your Panel & Wings) Coming soon"
     
     
     "Cancel Installation"
