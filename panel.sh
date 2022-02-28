@@ -67,13 +67,6 @@ exit 1
 
 done=false
 
-
-sudo rm -rf /var/www/pterodactyl
-
-sudo rm /etc/systemd/system/pteroq.service
-
-sudo unlink /etc/nginx/sites-enabled/pterodactyl.conf
-
 echo
 print_brake 70
 echo "* Uninstall-Pterodactyl @ $SCRIPT_VERSION"
