@@ -83,11 +83,11 @@ bash <(curl https://raw.githubusercontent.com/XxJustinxX1016/Uninstall-Pterodact
 }
 
 UninstallWings() {
-bash <(curl -s)
+bash <(curl https://raw.githubusercontent.com/XxJustinxX1016/Uninstall-Pterodactyl/main/wings.sh)
 }
 
 UninstallBoth() {
-bash <(curl -s)
+  echo "* Coming Soon"
 }
 
 
