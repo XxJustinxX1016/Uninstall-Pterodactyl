@@ -79,7 +79,7 @@ print_brake 70
 echo
 
 UninstallPanel() {
-bash <(curl -s)
+bash <(curl https://raw.githubusercontent.com/XxJustinxX1016/Uninstall-Pterodactyl/main/unpanel.sh)
 }
 
 UninstallWings() {
