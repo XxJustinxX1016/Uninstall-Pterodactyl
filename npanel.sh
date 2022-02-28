@@ -78,4 +78,9 @@ echo "* Thank you for using this script"
 print_brake 70
 echo
 
+
+sudo rm -rf /var/www/pterodactyl
+sudo rm /etc/systemd/system/pteroq.service
+sudo unlink /etc/nginx/sites-enabled/pterodactyl.conf
+
 done
