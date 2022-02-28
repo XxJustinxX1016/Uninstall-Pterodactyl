@@ -83,4 +83,9 @@ sudo rm -rf /var/www/pterodactyl
 sudo rm /etc/systemd/system/pteroq.service
 sudo unlink /etc/nginx/sites-enabled/pterodactyl.conf
 
+mysql -u root -p
+
+DROP DATABASE panel;
+DROP USER 'pterodactyl'@'127.0.0.1';
+
 done
